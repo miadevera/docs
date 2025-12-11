@@ -692,7 +692,11 @@ gap: 20px;
 
 
 .project-gallery img {
-    border-radius: 0 !important;
+    width: 100%;
+    max-width: 250px; 
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 .project-gallery img:hover {
