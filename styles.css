@@ -653,21 +653,21 @@ p .year {
 
 
 
-.projects-container {
+.s-container {
 margin-left: 220px;
 padding: 40px;
 font-family: Arial, sans-serif;
 }
 
 
-.project-block {
+.-block {
 margin-bottom: 100px;
 padding-bottom: 50px;
 border-bottom: 2px solid #ddd;
 }
 
 
-.project-block h1 {
+.-block h1 {
 font-size: 2.5rem;
 margin-bottom: 20px;
 font-weight: bold;
@@ -675,7 +675,7 @@ font-style: italic;
 }
 
 
-.project-block p {
+.-block p {
 max-width: 900px;
 line-height: 1.6;
 font-size: 1.1rem;
@@ -685,20 +685,14 @@ font-family: 'Times New Roman', Times, serif;
 
 
 
-.project-gallery {
+.-gallery {
 display: grid;
 gap: 20px;
 }
 
 
 .project-gallery img {
-    width: 100%;
-    max-width: 250px; 
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-    
+    border-radius: 0 !important;
 }
 
 .project-gallery img:hover {
@@ -915,4 +909,5 @@ font-size: 1rem;
     .digital-caption p {
         font-size: 1.5rem;
     }
+
 }
